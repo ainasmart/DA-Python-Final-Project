@@ -1,6 +1,5 @@
-run: pip install plotly.express
-run: pip install matplotlib.pyplot
-pip install plotly.express
+run: pip install plotly_express
+run: pip install matplotlib_pyplot
 import pandas as pd
 import numpy as np
 import plotly.express as px
