@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib as plt
 import streamlit as st
+import plotly.express as px
 
 #Create a heading for the subscription
 #st. title("Exploring Indian General Elections 2019")
