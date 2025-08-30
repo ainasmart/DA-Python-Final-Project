@@ -5,8 +5,8 @@ import streamlit as st
 #import plotly.express as px
 
 #Create a heading for the subscription
-#st. title("Exploring Indian General Elections 2019")
-#st.divider()
+st. title("Exploring Indian General Elections 2019")
+st.divider()
 
 filepath = "LS_2.0.csv"
 df = pd.read_csv(filepath)
