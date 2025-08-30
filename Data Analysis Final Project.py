@@ -2,30 +2,8 @@ run: pip Install plotly_express
 run: pip Install matplotlib_pyplot
 import pandas as pd
 import numpy as np
-import plotly.express as px
 import matplotlib.pyplot as plt
-import seaborn as sns
 import streamlit as st
-
-#Create a heading for the subscription
-#st. title("Exploring Indian General Elections 2019")
-#st.divider()
-
-filepath = "LS_2.0.csv"
-df = pd.read_csv(filepath)
-
-#Showing the dataframe
-st.dataframe(df)
-
-#df.head()
-df.tail()
-
-#import streamlit as st
-import pandas as pd
-import numpy as np
-import plotly.express as px
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 #Create a heading for the subscription
 #st. title("Exploring Indian General Elections 2019")
