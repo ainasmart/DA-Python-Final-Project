@@ -54,7 +54,7 @@ df_win["PARTY"].value_counts()
 df_win.info()
 
 
-EDA
+#EDA
 
 # 1. GENDER-AGE SPREAD AMONG WINNING ELECTORS.
 gender_age = df_win.groupby("GENDER")["AGE"].mean().sort_values().head(10)
