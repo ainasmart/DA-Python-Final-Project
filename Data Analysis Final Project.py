@@ -38,7 +38,7 @@ df_win = df[df["WINNER"] != 0]
 df_win.shape
 
 #Drop the "WINNER" column from the cleaned data to ensure the dataset 
-df_win.loc.drop(['WINNER'], axis=1, inplace=True) 
+df_win.drop(['WINNER'], axis=1, inplace=True) 
 
 #Shape of the new cleaned data
 df_win.shape
