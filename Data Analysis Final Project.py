@@ -1,5 +1,5 @@
-#import streamlit as st
-pip install matplotlib.pyplot
+run: pip install plotly.express
+run: pip install matplotlib.pyplot
 pip install plotly.express
 import pandas as pd
 import numpy as np
